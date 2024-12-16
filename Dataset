@@ -1,0 +1,19 @@
+# Spark Data Processing: User Log Analysis Practice
+
+This repository contains a practice notebook where I explored **Apache Spark** and **PySpark** for processing and analyzing a user log dataset. The notebook demonstrates various data processing techniques using Spark, including data cleaning, transformations, and aggregations.
+
+> **Note**: This notebook is based on a Kaggle notebook that I used to practice **Apache Spark**. It serves as a hands-on practice environment to familiarize myself with Spark's functionalities.
+
+## Dataset
+
+### Data Download
+
+To download the dataset, you can use the following code snippet in your notebook:
+
+```python
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("nilaychauhan/sparkify-log-small")
+
+print("Path to dataset files:", path)
